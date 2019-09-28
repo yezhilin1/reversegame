@@ -1,0 +1,13 @@
+<view>
+<view></view>
+</view>
+<view>
+<view wx:if='{{numberflag}}'><text>{{numbertest}}</text></view>
+<view wx:if='{{gestureflag}}'><image src="{{gesturetest}}"></image></view>
+<view wx:if='{{colorflag}}'><text style="color:{{textcolor}}">{{colortest}}</text></view>
+<view><text>{{tip}}</text></view>
+<view>
+<view><text bindtap="click1">{{oneoption}}</text></view>
+<view><text bindtap="click2">{{anotheroption}}</text></view>
+</view>
+</view>

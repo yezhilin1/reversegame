@@ -1,0 +1,3 @@
+<view bindtap="scorepage" class="highestscore"><image src="{{highestscore}}" class="highestscoreimg" ></image></view>
+<view><text>{{gamename}}</text></view>
+<view bindtap="gamepage" class="gamestart"><image src="{{gamestart}}" class="gamestartimg" ></image></view>
